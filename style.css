@@ -1,0 +1,76 @@
+.list-group-item-action{
+    width:300px;
+}
+h3{
+    color:green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-decoration: underline;
+}
+input[type="text"],input[type="number"],#desgm,input[type="email"],select,input[type="date"]{
+    width:300px;
+    height: 40px;
+    text-align: center;
+    background: inherit;
+    border-radius: 7px;
+    border-top: hidden;
+    border-left:hidden;
+    border-right: hidden;
+    outline:none;
+    border-bottom-color: #141211;
+}
+select{
+    text-align: center;
+}
+::placeholder{
+    color:black
+}
+.btn-outline-primary,.btn-outline-success,.btn-outline-danger,.btn-outline-info{
+    box-shadow: 10px 10px 20px;
+    color:black;
+    border:2px solid #101312;
+    background-color:rgb(249, 245, 245);
+
+}
+
+#insert{
+    text-align: center;
+    
+}
+body,html{
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    background-size: 120%;
+    /* background-position: center center; */
+    background-attachment: fixed;
+
+}
+#rows {
+    box-shadow: 10px 15px 10px #014421;
+    padding:21px;
+}
+
+
+#table {
+   padding:20px;
+   background-color: white;
+    box-shadow: 10px 15px 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+#reset{
+    margin-left:30px;
+}
+#details{
+    margin-top:50px;
+}
+#h1,#h5{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(20, 164, 13);
+}
+#h1{
+    font-weight: 900;
+}
+#h5{
+    font-weight: 700;
+}
